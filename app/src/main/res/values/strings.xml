@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activities and intent</string>
+    <string name="button_welcome_page">SEARCH AN ITINERARY</string>
+    <string name="search">SEARCH</string>
+    <string name="hint_depart">Depart</string>
+    <string name="hint_arrivé">Arrivé</string>
+    <string name="depart">Depart</string>
+    <string name="arrivé">Arrivé</string>
+    <string name="date">DATE</string>
+    <string name="find">Find intinary</string>
+</resources>
