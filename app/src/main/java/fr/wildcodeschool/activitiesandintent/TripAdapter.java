@@ -22,12 +22,9 @@ public class TripAdapter extends ArrayAdapter<TripModel> {
 
             // Get the data item for this position
             // Check if an existing view is being reused, otherwise inflate the view
+            tripViewHolder viewHolder;
             if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_item_trip, parent, false);
-            }
-
-            tripViewHolder viewHolder = (tripViewHolder) convertView.getTag();
-            if(viewHolder == null) {
+                convertView = LayoutInflater.from(getContext()).inflate(R.layout.row_item_trip, parent, false);
                 viewHolder = new tripViewHolder();
                 // Lookup view for data population
                 viewHolder.firstName = (TextView) convertView.findViewById(R.id.firstName);
@@ -36,6 +33,10 @@ public class TripAdapter extends ArrayAdapter<TripModel> {
                 viewHolder.date= (TextView) convertView.findViewById(R.id.date);
                 convertView.setTag(viewHolder);
             }
+
+            viewHolder = (tripViewHolder) convertView.getTag();
+
+
 
             TripModel trip = (TripModel) getItem(position);
             SimpleDateFormat formatDate = new SimpleDateFormat("dd-MM-yyyy-kk:mm");

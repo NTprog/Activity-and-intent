@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true">
 
         <TextView
-            android:id="@+id/FirstName"
+            android:id="@+id/firstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -29,17 +29,17 @@
             android:id="@+id/lastName"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:layout_alignLeft="@+id/FirstName"
-            android:layout_below="@+id/FirstName"
+            android:layout_alignLeft="@+id/firstName"
+            android:layout_below="@+id/firstName"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/FirstName"
+            app:layout_constraintStart_toEndOf="@+id/firstName"
             app:layout_constraintTop_toBottomOf="@+id/date"
             tools:text="@sample/tools:first_names" />
 
-        <EditText
+        <TextView
             android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="23dp"
@@ -50,7 +50,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
+        <TextView
             android:id="@+id/prix"
             android:layout_width="27dp"
             android:layout_height="20dp"

@@ -27,9 +27,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItinarySearchActivity" />
         </activity>
-        <activity android:name=".activity_item_trip">
 
-        </activity>
     </application>
 
 </manifest>
