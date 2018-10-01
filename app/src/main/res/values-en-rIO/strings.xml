@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activities and intent</string>
+    <string name="button_welcome_page">SEARCH AN ITINERARY</string>
+    <string name="search">SEARCH</string>
+    <string name="hint_depart">Departure</string>
+    <string name="hint_arrivé">arrival</string>
+    <string name="depart">Departure</string>
+    <string name="arrivé">arrival</string>
+    <string name="date">DATE</string>
+    <string name="find">Find itinary</string>
+</resources>
